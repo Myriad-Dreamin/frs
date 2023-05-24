@@ -1,0 +1,21 @@
+[package]
+name = "frs"
+description = "Command line tool for frs."
+authors.workspace = true
+version.workspace = true
+license.workspace = true
+edition.workspace = true
+repository.workspace = true
+
+[dependencies]
+
+once_cell.workspace = true
+
+clap.workspace = true
+clap_complete.workspace = true
+clap_complete_fig.workspace = true
+
+serde.workspace = true
+serde_json.workspace = true
+
+ansi_term.workspace = true
